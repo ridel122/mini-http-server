@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mini HTTP Server</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <img src="logo.png" class="logo">
+
+    <h1>Mini HTTP Server</h1>
+
+    <p>Server berjalan dengan baik.</p>
+
+    <h2>Pengujian HTTP Status Code</h2>
+
+    <ul>
+        <li>
+            <a href="/tidak_ada.html">
+                Uji Error 404
+            </a>
+        </li>
+    </ul>
+
+    <p>
+        Untuk menguji 405 gunakan:
+    </p>
+
+    <pre>
+curl -X POST http://localhost:8080
+    </pre>
+
+    <a href="/post_test.html">
+        Uji 405
+    </a>
+
+    <p>
+        Untuk menguji 400 gunakan:
+    </p>
+
+    <pre>
+nc localhost 8080
+HELLO SERVER
+
+   <a href="/test400">
+        Test Error 400
+    </a>
+    </pre>
+
+</body>
+</html>
