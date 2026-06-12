@@ -221,8 +221,10 @@ Server akan mengembalikan:
 
 ## Author
 
-Nama: [Isi Nama Anda]
+Nama: Angelina Sembel,
+      Galileo Pelealu,
+      Riedel Hamel
 
-Mata Kuliah: Pemrograman Sistem / Jaringan Komputer
+Mata Kuliah: Unix Programming
 
 Tahun: 2026
